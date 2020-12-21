@@ -1,8 +1,10 @@
 # Zotero Obsidian Integration
 
+Here's an initial hack to integrate Zotero into Obsidian by (1) copying all .pdfs from Zotero into Obsidian (2) creating markdown files with metadata on. This gets some of the integration started and it's a simply, hacky Python script (as opposed to a built-in Obsidian or Zotero extension).
+
 ## Copy .pdfs from Zotero to Obsidian and create markdown files with .pdf metadata
 
-Step 1 – Download a .csv of your Zotero library. Go to File>Export and export as .csv.
+Step 1 – Download a .csv of your Zotero library. In Zotero, go to File > Export and export as .csv.
 
 Step 2 – Run zotero2obsidian.py
 
